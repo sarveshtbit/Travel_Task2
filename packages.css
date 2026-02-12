@@ -1,0 +1,76 @@
+.destination_nav{
+    justify-content: space-around;
+    display:flex;
+    overflow-y:hidden;
+}
+.destination_nav a{
+    font-size: 28px;
+    transition: color 0.5s ease-in-out;
+}
+.destination_nav a:hover{
+    color:deeppink;
+}
+.Entire_pack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+}
+.Nilgiris_pack{
+    flex: 1;
+    background-color: #5da56b;
+    display: inline-block;
+    flex-direction: column;
+    width:400px;
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.kodaikanal_package{
+    flex: 1;
+    background-color: #5da56b;
+    display: inline-block;
+    flex-direction: column;
+    width:405px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.madurai_package{
+    flex: 1;
+    background-color: #5da56b;
+    display: inline-block;
+    flex-direction: column;
+    width:405px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.kanyakumari_package{
+    background-color: #5da56b;
+    display: inline-block;
+    margin:20px auto 0 auto;
+    width:405px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border:2px solid black;
+    border-radius: 20px;
+    flex: 0 0 405px;
+    margin-left: 535px;
+    margin-right: auto;
+}
+.Nilgiris_pack,
+.kodaikanal_package,
+.madurai_package,
+.kanyakumari_package {
+    flex: 0 0 400px;         
+}

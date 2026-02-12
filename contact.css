@@ -1,0 +1,33 @@
+.navigation_bar{
+    justify-content: space-around;
+    display:flex;
+    overflow-y:hidden;
+}
+.navigation_bar a{
+    font-size: 28px;
+    transition: color 0.5s ease-in-out;
+
+}
+.navigation_bar a:hover{
+    color:deeppink;
+}
+.Full_Contact {
+    width: 40%;              
+    margin-left: auto;     
+    margin-right: 40px;    
+}
+.contact_container{
+    display:flex;
+    align-items:center;      
+    justify-content:space-between;
+    padding:40px;
+}
+
+.contact_container img{
+    margin-right:40px;
+}
+
+.Full_Contact{
+    width:40%;
+}
+
